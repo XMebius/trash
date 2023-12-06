@@ -1,0 +1,33 @@
+     CMake Error at /usr/local/lib/python3.8/dist-packages/cmake/data/share/cmake-3.27/Modules/FindQt4.cmake:1314 (message):
+        Found unsuitable Qt version "5.15.2" from
+        /home/mebius/workspace/anaconda3/envs/trash/bin/qmake, this code requires
+        Qt 4.x
+      Call Stack (most recent call first):
+        cmake/OpenCVFindLibsGUI.cmake:34 (find_package)
+        CMakeLists.txt:601 (include)
+      
+      
+      -- Configuring incomplete, errors occurred!
+      Traceback (most recent call last):
+        File "/home/mebius/workspace/anaconda3/envs/trash/lib/python3.8/site-packages/skbuild/setuptools_wrap.py", line 666, in setup
+          env = cmkr.configure(
+        File "/home/mebius/workspace/anaconda3/envs/trash/lib/python3.8/site-packages/skbuild/cmaker.py", line 357, in configure
+          raise SKBuildError(msg)
+      
+      An error occurred while configuring with CMake.
+        Command:
+          /usr/local/bin/cmake /tmp/pip-install-6mayzyzm/opencv-python_c9bcaa4ffab94e0e817899706ef55524/opencv -G 'Unix Makefiles' --no-warn-unused-cli -DCMAKE_INSTALL_PREFIX:PATH=/tmp/pip-install-6mayzyzm/opencv-python_c9bcaa4ffab94e0e817899706ef55524/_skbuild/linux-aarch64-3.8/cmake-install -DPYTHON_VERSION_STRING:STRING=3.8.18 -DSKBUILD:INTERNAL=TRUE -DCMAKE_MODULE_PATH:PATH=/home/mebius/workspace/anaconda3/envs/trash/lib/python3.8/site-packages/skbuild/resources/cmake -DPYTHON_EXECUTABLE:PATH=/home/mebius/workspace/anaconda3/envs/trash/bin/python -DPYTHON_INCLUDE_DIR:PATH=/home/mebius/workspace/anaconda3/envs/trash/include/python3.8 -DPYTHON_LIBRARY:PATH=/home/mebius/workspace/anaconda3/envs/trash/lib/libpython3.8.so -DPython_EXECUTABLE:PATH=/home/mebius/workspace/anaconda3/envs/trash/bin/python -DPython_ROOT_DIR:PATH=/home/mebius/workspace/anaconda3/envs/trash -DPython_FIND_REGISTRY:STRING=NEVER -DPython_INCLUDE_DIR:PATH=/home/mebius/workspace/anaconda3/envs/trash/include/python3.8 -DPython_NumPy_INCLUDE_DIRS:PATH=/home/mebius/workspace/anaconda3/envs/trash/lib/python3.8/site-packages/numpy/core/include -DPython3_EXECUTABLE:PATH=/home/mebius/workspace/anaconda3/envs/trash/bin/python -DPython3_ROOT_DIR:PATH=/home/mebius/workspace/anaconda3/envs/trash -DPython3_FIND_REGISTRY:STRING=NEVER -DPython3_INCLUDE_DIR:PATH=/home/mebius/workspace/anaconda3/envs/trash/include/python3.8 -DPython3_NumPy_INCLUDE_DIRS:PATH=/home/mebius/workspace/anaconda3/envs/trash/lib/python3.8/site-packages/numpy/core/include -DPYTHON3_EXECUTABLE=/home/mebius/workspace/anaconda3/envs/trash/bin/python -DBUILD_opencv_python3=ON -DINSTALL_CREATE_DISTRIB=ON -DBUILD_opencv_apps=OFF -DBUILD_SHARED_LIBS=OFF -DBUILD_TESTS=OFF -DBUILD_PERF_TESTS=OFF -DBUILD_DOCS=OFF -DWITH_QT=4 -DWITH_V4L=ON -DENABLE_PRECOMPILED_HEADERS=OFF -DWITH_IPP=OFF -DCMAKE_BUILD_TYPE:STRING=Release
+        Source directory:
+          /tmp/pip-install-6mayzyzm/opencv-python_c9bcaa4ffab94e0e817899706ef55524/opencv
+        Working directory:
+          /tmp/pip-install-6mayzyzm/opencv-python_c9bcaa4ffab94e0e817899706ef55524/_skbuild/linux-aarch64-3.8/cmake-build
+      Please see CMake's output for more information.
+      
+      [end of output]
+  
+  note: This error originates from a subprocess, and is likely not a problem with pip.
+  ERROR: Failed building wheel for opencv-python
+  Running setup.py clean for opencv-python
+Failed to build opencv-python
+ERROR: Could not build wheels for opencv-python, which is required to install pyproject.toml-based projects
+

@@ -1,0 +1,5 @@
+anaconda3/
+download/
+pyqt/
+pytorch/
+./yolov5s.pt
